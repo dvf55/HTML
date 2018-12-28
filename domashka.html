@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Title</title>
+  <style>
+    td {
+      border: 1px solid black;
+    }
+
+    table, td {
+      border-collapse: collapse
+    }
+  </style>
+</head>
+<body>
+<table width="100%">
+  <tr>
+    <td colspan="4">header1</td>
+  </tr>
+  <tr>
+    <td>row1item1</td>
+    <td>row1item2</td>
+    <td colspan="2" rowspan="2">row1item3</td>
+  </tr>
+  <tr>
+    <td colspan="2" rowspan="2">row2item1</td>
+    <td>row2item2</td>
+    <td>row1item1</td>
+  </tr>
+  <tr>
+    <td>row2item2</td>
+    <td>row2item2</td>
+    <td>row2item2</td>
+  </tr>
+</table>
+</body>
+</html>
